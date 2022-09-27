@@ -1,0 +1,5 @@
+- name: Edit index.html file
+  copy:
+   content: "New HBC-Trainings"
+   dest: /var/www/html/index.html
+...
